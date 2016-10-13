@@ -1,1 +1,1 @@
-web: gunicorn time:app --log-file-
+web: python3 app.py $PORT
